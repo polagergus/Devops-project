@@ -1,0 +1,30 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "Project2"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.medium"
+    },
+    {
+        "ParameterKey": "InstanceRole",
+        "ParameterValue": "S3-policy"
+    },
+    {
+        "ParameterKey": "UbuntuImageID",
+        "ParameterValue": "ami-0ee23bfc74a881de5"
+    },
+    {
+        "ParameterKey": "SSHKeypair",
+        "ParameterValue": "pola"
+    },
+    {
+        "ParameterKey": "BucketName",
+        "ParameterValue": "project2-infra"
+    },
+    {
+        "ParameterKey": "HTMLIndexPrefix",
+        "ParameterValue": "index.html"
+    }
+  ]
