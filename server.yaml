@@ -97,7 +97,7 @@ Resources:
           systemctl restart apache2.service
           systemctl enable apache2.service
           cd /var/www/html
-          aws s3 cp "s3://project2-infra/index.html". 
+          aws s3 cp "s3://serve-WebAp-1IKLEFJ2KHYGX-519479145.us-east-1.elb.amazonaws.com". 
       ImageId: !Ref UbuntuImageID
       #KeyName: !Ref SSHKeypair
       IamInstanceProfile: !Ref InstanceRole
